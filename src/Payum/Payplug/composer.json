@@ -1,0 +1,43 @@
+{
+    "name": "payum/payplug",
+    "type": "library",
+    "description": "The Payum extension. It provides PayPlug payment integration.",
+    "keywords": ["payment", "payplug"],
+    "homepage": "http://payum.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sullivan SENECHAL",
+            "email": "soullivaneuh@gmail.com"
+        },
+        {
+            "name":     "Payum project",
+            "homepage": "http://payum.org/"
+        },
+        {
+            "name":     "Community contributions",
+            "homepage": "https://github.com/Payum/Payplug/contributors"
+        }
+    ],
+    "require": {
+        "payum/core": "^1.3",
+        "payplug/payplug-php": "^2.4"
+    },
+    "require-dev": {
+        "payum/core": "^1.3@dev",
+        "phpunit/phpunit": "~4.0",
+        "symfony/phpunit-bridge": "~2.8|~3.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": { "Payum\\Payplug": "" }
+    },
+    "target-dir": "Payum/Payplug",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3-dev"
+        }
+    }
+}

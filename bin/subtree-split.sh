@@ -32,6 +32,7 @@ remote payex git@github.com:Payum/Payex.git
 remote klarna-checkout git@github.com:Payum/KlarnaCheckout.git
 remote klarna-invoice git@github.com:Payum/KlarnaInvoice.git
 remote stripe git@github.com:Payum/Stripe.git
+remote payplug git@github.com:Payum/Payplug.git
 remote sofort git@github.com:Payum/Sofort.git
 remote skeleton git@github.com:Payum/Skeleton.git
 
@@ -50,4 +51,5 @@ split 'src/Payum/Klarna/Checkout' klarna-checkout
 split 'src/Payum/Klarna/Invoice' klarna-invoice
 split 'src/Payum/Sofort' sofort
 split 'src/Payum/Stripe' stripe
+split 'src/Payum/Payplug' payplug
 split 'src/Payum/Skeleton' skeleton
